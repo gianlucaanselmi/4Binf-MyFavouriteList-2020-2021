@@ -14,11 +14,19 @@
 	<form action="">
 		<input type="url" name="url" id="form-url" placeholder="URL"> 
     <input type="text" name="title" id="form-title" placeholder="titolo"> 
-    <input type="text" name="category" id="form-category" placeholder="categoria"> 
+    <select id="form-category" name="categoria"> 
+      <option value="categoria">Categoria</option>
+      <option value="scuola">Scuola</option>
+      <option value="gioco">Gioco</option>
+      <option value="ricette">Ricette</option>
+    
     <input type="submit" value="Aggiungi" id="form-submit">
   </form>
 <ol id="link-list">
-<li><a href="https://app.diagrams.net/">Draw.io</a></li>
+<li>
+  <a href="https://app.diagrams.net/">Draw.io</a> 
+  <img class="trash-icon" src="trash.jpg" alt="trash bin">   
+</li>
 </ol>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

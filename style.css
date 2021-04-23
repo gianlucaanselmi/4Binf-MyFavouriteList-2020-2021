@@ -1,5 +1,5 @@
 
-input{
+input , select{
  display: block; 
  margin: 12px;
 }
@@ -7,4 +7,14 @@ input{
 h1{
  text-decoration: underline;
  font-family: Arial;
+}
+
+.trash-icon{
+height: 1em;
+float: right;
+}
+
+
+#link-list{
+width: 40%;
 }
